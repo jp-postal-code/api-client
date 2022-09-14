@@ -1,7 +1,7 @@
 {
   "name": "@jp-postal-code/api-client",
   "description": "JP Postal Code API Client",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": "git@github.com:jp-postal-code/api-client.git",
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
