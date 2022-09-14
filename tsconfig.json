@@ -13,5 +13,5 @@
     "resolveJsonModule": true,
     "esModuleInterop": true
   },
-  "exclude": ["node_modules", "tmp", "*.test.ts", "cypress/target"]
+  "exclude": ["node_modules", "tmp", "*.test.ts", "cypress/fixtures"]
 }
