@@ -1,0 +1,9 @@
+{
+  "name": "e2e-esm",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@jp-postal-code/api-client": "../../../../dist"
+  }
+}
