@@ -4,8 +4,8 @@ import { rm } from 'fs/promises';
 import { join } from 'path';
 
 const projectRoots = {
-  esm: join(process.cwd(), 'src/__e2e__/projects/esm'),
-  cjs: join(process.cwd(), 'src/__e2e__/projects/cjs'),
+  esm: join(process.cwd(), 'src/__e2e__/fixtures/esm'),
+  cjs: join(process.cwd(), 'src/__e2e__/fixtures/cjs'),
 };
 
 beforeAll(async () => {
