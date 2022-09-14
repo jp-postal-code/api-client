@@ -1,0 +1,9 @@
+{
+  "name": "e2e-cjs",
+  "private": true,
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@jp-postal-code/api-client": "../../../../dist"
+  }
+}
