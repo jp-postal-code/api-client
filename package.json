@@ -25,17 +25,20 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
-  "main": "./index.js",
-  "types": "./index.d.ts",
+  "main": "./node/index.js",
+  "types": "./node/index.d.ts",
   "exports": {
     ".": {
-      "node": {
-        "types": "./index.d.ts",
-        "import": "./index.mjs",
-        "require": "./index.js"
+      "browser": {
+        "types": "./browser/index.d.ts",
+        "import": "./browser/index.mjs",
+        "require": "./browser/index.js",
+        "default": "./browser/index.js"
       },
-      "types": "./index-browser.d.ts",
-      "import": "./index-browser.mjs"
+      "types": "./node/index.d.ts",
+      "import": "./node/index.mjs",
+      "require": "./node/index.js",
+      "default": "./node/index.js"
     }
   },
   "dependencies": {},
