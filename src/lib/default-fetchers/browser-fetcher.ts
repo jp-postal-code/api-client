@@ -6,7 +6,7 @@ export const browserFetcher: Fetcher = async (url, { signal }) => {
   });
 
   if (response.status !== 200) {
-    return new Error(`Cannot fetch addresses: ${response.statusText}`);
+    throw new Error(`Cannot fetch addresses: ${response.statusText}`);
   }
 
   return await response.json();
