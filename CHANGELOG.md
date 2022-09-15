@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/jp-postal-code/api-client/compare/api-client-v0.1.1...api-client-v0.1.2) (2022-09-15)
+
+
+### Bug Fixes
+
+* エラーが発生した際にErrorを返却してしまっている不具合を修正 ([#12](https://github.com/jp-postal-code/api-client/issues/12)) ([4c6614c](https://github.com/jp-postal-code/api-client/commit/4c6614ccf0ab0ab1cb216f72d794e6d8dcc1dca2))
+
 ## [0.1.1](https://github.com/jp-postal-code/api-client/compare/api-client-v0.1.0...api-client-v0.1.1) (2022-09-15)
 
 
